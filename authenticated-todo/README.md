@@ -113,7 +113,6 @@ Veritabanı bilgilerinizi `.env` dosyasına kaydedin.
 │   ├── /auth
 │   └── /validators
 ├── /errors
-└── /utils
 
 ```
 
@@ -130,7 +129,6 @@ Veritabanı bilgilerinizi `.env` dosyasına kaydedin.
 | `/Decorators`                    | Decorator dosyalarının bulunduğu klasör               |
 | - `/decorators/validators`       | Validation decoratorlerinin bulunduğu klasör          |
 | `/Errors`                        | Error dosyalarının bulunduğu klasör                   |
-| `/Utils`                         | Utils dosyalarının bulunduğu klasör                   |
 
 ## Notlar
 
