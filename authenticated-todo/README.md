@@ -137,3 +137,20 @@ Veritabanı bilgilerinizi `.env` dosyasına kaydedin.
 -   Swagger modülü development modunda iken aktiftir ve url si `/api` dir
 
 -   Veritabanında user ile profile tablosunu neden ayırdın diye sorabilirsiniz. Bunun sebebi bu basit bir proje olduğu için ve profil kısmına sürekli yeni özellikler eklenebileceği için hassas bilgiler ile bir tutmak istemedim.
+
+## Görseller
+
+Endpoint Listesi
+![Swagger](screenshots/swagger.png)
+
+Todo Listesi
+![Todo List](screenshots/todolist.png)
+
+Todo Oluşturma
+![Todo Create](screenshots/todocreate.png)
+
+Todo Silme
+![Todo Delete](screenshots/tododelete.png)
+
+Todo Güncelleme
+![Todo Update](screenshots/todoUpdate.png)
