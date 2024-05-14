@@ -6,7 +6,6 @@
 -   NestJS Cache Manager
 -   Swagger
 -   Redis
--   Axios
 -   Express Sessions
 -   TypeORM
 -   PostgreSQL
