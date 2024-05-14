@@ -1,5 +1,4 @@
 import { IsEmail, IsNotEmpty } from 'class-validator';
-import { ProfileDTO } from 'src/api/user/dto/profile.dto';
 
 import { ApiProperty } from '@nestjs/swagger';
 
@@ -16,5 +15,11 @@ export class AuthLoginDTO {
 
 export class AuthLoginResponseDTO {
 	@ApiProperty()
-	profile: ProfileDTO;
+	name: string;
+
+	@ApiProperty()
+	last_name: string;
+
+	@ApiProperty()
+	email: string;
 }

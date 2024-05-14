@@ -8,9 +8,6 @@ export class ProfileDTO {
 	last_name: string;
 
 	@ApiProperty()
-	avatar: string;
-
-	@ApiProperty()
 	email: string;
 
 	static fromEntity(entity: any) {

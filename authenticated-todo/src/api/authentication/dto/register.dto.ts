@@ -1,5 +1,4 @@
 import { IsAlpha, IsEmail, IsNotEmpty, MinLength } from 'class-validator';
-import { ProfileDTO } from 'src/api/user/dto/profile.dto';
 import {
 	ContainsLowercase,
 	ContainsSpecialCharacter,
@@ -35,5 +34,11 @@ export class AuthRegisterDTO {
 
 export class AuthRegisterResponseDTO {
 	@ApiProperty()
-	profile: ProfileDTO;
+	name: string;
+
+	@ApiProperty()
+	last_name: string;
+
+	@ApiProperty()
+	email: string;
 }
