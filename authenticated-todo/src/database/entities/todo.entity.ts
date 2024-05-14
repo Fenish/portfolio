@@ -15,4 +15,7 @@ export class Todo {
 
 	@ManyToOne(() => User, (user) => user.todos)
 	user: User;
+
+	@Column({ select: false })
+	userId: string;
 }
