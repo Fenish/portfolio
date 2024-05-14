@@ -3,6 +3,7 @@ import { Module } from '@nestjs/common';
 import { ConfigModule } from '@nestjs/config';
 
 import { AuthenticationModule } from './api/authentication/authentication.module';
+import { TodoModule } from './api/todo/todo.module';
 import { RedisOptions } from './configs/redis.config';
 import { DatabaseModule } from './database/database.module';
 
@@ -10,6 +11,7 @@ import { DatabaseModule } from './database/database.module';
 	imports: [
 		AuthenticationModule,
 		DatabaseModule,
+		TodoModule,
 		ConfigModule.forRoot({ isGlobal: true }),
 		CacheModule.registerAsync(RedisOptions),
 	],
