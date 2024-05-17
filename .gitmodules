@@ -1,0 +1,3 @@
+[submodule "authenticated-todo"]
+	path = authenticated-todo
+	url = https://github.com/Fenish/authenticated-todo
