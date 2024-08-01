@@ -1,9 +1,3 @@
 [submodule "authenticated-todo"]
 	path = authenticated-todo
 	url = https://github.com/Fenish/authenticated-todo
-
-
-[submodule "Dynamic Routing"]
-        path = dynamic-routing
-        url = https://github.com/Fenish/DynamicRouting
-
